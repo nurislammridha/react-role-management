@@ -21,7 +21,7 @@ export default function getUserData() {
       id: 3,
       username: "nur",
       name: "Nur Islam",
-      password: "password",
+      password: "123456",
       role: {
         id: 1,
         name: "Admin"

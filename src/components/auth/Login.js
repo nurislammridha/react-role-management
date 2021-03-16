@@ -52,6 +52,7 @@ class Login extends Component {
       <div className="d-flex justify-content-center login-area">
         <Card style={{ width: "30rem" }}>
           <h3 className="text-center mt-2 mb-2 text-uppercase">Login</h3>
+          <span>Username:nur           Password:123456</span>
           <hr />
           {this.state.errorMessage.length > 0 && (
             <Alert show={true} variant="danger" className="m-2">
@@ -62,7 +63,7 @@ class Login extends Component {
           <Card.Body>
             <Form>
               <Form.Group controlId="formBasicEmail">
-                <Form.Label>Username</Form.Label>
+                <Form.Label>Username(nur)</Form.Label>
                 <Form.Control
                   type="text"
                   value={this.state.username}
@@ -72,7 +73,7 @@ class Login extends Component {
               </Form.Group>
 
               <Form.Group controlId="formBasicPassword">
-                <Form.Label>Password</Form.Label>
+                <Form.Label>Password(123456)</Form.Label>
                 <Form.Control
                   type="password"
                   value={this.state.password}
